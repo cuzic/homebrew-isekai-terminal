@@ -10,12 +10,12 @@ class IsekaiHelper < Formula
 
   on_arm do
     url "https://github.com/cuzic/isekai-terminal/releases/download/isekai-helper-v#{version}/isekai-helper-aarch64-unknown-linux-musl"
-    sha256 "a31f1f92d913e418736023ec0f10959e245df3c949c21a69be883fc3b2f56742"
+    sha256 "d26581b8209a99c4069ce794228d38efce325399b3764d68fb25e87f01ade61a"
   end
 
   on_intel do
     url "https://github.com/cuzic/isekai-terminal/releases/download/isekai-helper-v#{version}/isekai-helper-x86_64-unknown-linux-musl"
-    sha256 "4401574883a7e12179488cb4e5eeccb4f427d3dcdb58b210b867507348858ed9"
+    sha256 "5d94877eaea11b63fd5f2282ef19d84e3d3f2f0a96036eeef76c939aafd4222c"
   end
 
   def install
